@@ -9,7 +9,7 @@ pipeline {
     stage ('Instalar dependencias') {
       steps {
         echo 'Creando node modules .......'
-        sh 'npm install'
+        //sh 'npm install'
       }
     }
     stage ('Ejecutar la prueba con Jest') {
