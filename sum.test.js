@@ -14,6 +14,6 @@ describe('Pruebass del archivo sum.js', () => {
   });
 
   test("Probar si el resultado no es negativo", () => {
-    expect(suma(5,3) > 0).toBeFalsy();
+    expect(suma(5,3) < 0).toBeFalsy();
   });
 });
