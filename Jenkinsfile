@@ -1,7 +1,7 @@
 pipeline {
   agent any
   tools {
-    nodejs "node24"
+    nodejs "Node24"
   }
   stages {
     stage ('Clonar repositorio') {
